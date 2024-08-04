@@ -1,0 +1,70 @@
+//font
+@import url(../css/fonts.css);
+
+//color variables 
+$lightGray : hsl(204, 43%, 93%);
+$grayishBlue :  hsl(218, 22%, 67%);
+$cyan: hsl(179, 62%, 43%);
+$brightYellow: hsl(71, 73%, 54%);
+
+
+//general styles
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $lightGray;
+    height: 100vh;
+    font-family: 'Karla';
+    padding: 0 30px !important;
+}
+
+//specific styles
+.content{
+    box-shadow: 0 0 1rem 7px rgba($color: $grayishBlue, $alpha: .2);
+    width: 750px;
+    .top-content{
+        h2{
+            color: $cyan;
+            font-weight: 700;
+        }
+        h5{
+            color: $brightYellow;
+            font-weight: 700;
+
+        }
+        p{
+            color: $grayishBlue;
+            line-height: 1.7;
+        }
+    }
+    .bottom-content {
+        .signup{
+            background-color: $cyan;
+            h5{
+                font-weight: 700;
+            }
+            h6{
+                color: $lightGray;
+            }
+            button{
+                background-color: $brightYellow;
+                outline: none;
+                font-weight: 700;
+            }
+        }
+        .whyus{
+            background-color: #5cc6c0; 
+            h5{
+                font-weight: 700;
+            }
+            ul {
+                font-size: .95rem;
+                color: $lightGray;
+            }
+        }
+    }
+}

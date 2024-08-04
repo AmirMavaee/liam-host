@@ -1,0 +1,54 @@
+@import url(../css/fonts.css);
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204deg, 43%, 93%);
+  height: 100vh;
+  font-family: "Karla";
+  padding: 0 30px !important;
+}
+
+.content {
+  box-shadow: 0 0 1rem 7px rgba(152, 166, 189, 0.2);
+  width: 750px;
+}
+.content .top-content h2 {
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
+}
+.content .top-content h5 {
+  color: hsl(71deg, 73%, 54%);
+  font-weight: 700;
+}
+.content .top-content p {
+  color: hsl(218deg, 22%, 67%);
+  line-height: 1.7;
+}
+.content .bottom-content .signup {
+  background-color: hsl(179deg, 62%, 43%);
+}
+.content .bottom-content .signup h5 {
+  font-weight: 700;
+}
+.content .bottom-content .signup h6 {
+  color: hsl(204deg, 43%, 93%);
+}
+.content .bottom-content .signup button {
+  background-color: hsl(71deg, 73%, 54%);
+  outline: none;
+  font-weight: 700;
+}
+.content .bottom-content .whyus {
+  background-color: #5cc6c0;
+}
+.content .bottom-content .whyus h5 {
+  font-weight: 700;
+}
+.content .bottom-content .whyus ul {
+  font-size: 0.95rem;
+  color: hsl(204deg, 43%, 93%);
+}/*# sourceMappingURL=style.css.map */
