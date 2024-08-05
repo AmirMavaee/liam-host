@@ -5,11 +5,16 @@
   box-sizing: border-box;
 }
 
+html, body {
+  display: grid;
+  height: 100%;
+}
+
 body {
   background-color: hsl(204deg, 43%, 93%);
-  height: 100vh;
+  grid-template-rows: 1fr;
   font-family: "Karla";
-  padding: 0 30px !important;
+  padding: 3rem 30px !important;
 }
 
 .content {
@@ -51,4 +56,16 @@ body {
 .content .bottom-content .whyus ul {
   font-size: 0.95rem;
   color: hsl(204deg, 43%, 93%);
+}
+
+@media (max-width: 809px) {
+  html, body {
+    display: block;
+  }
+  body {
+    height: auto;
+  }
+  .col-6 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
