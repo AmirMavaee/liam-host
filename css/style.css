@@ -13,7 +13,7 @@ html, body {
 body {
   background-color: hsl(204deg, 43%, 93%);
   grid-template-rows: 1fr;
-  font-family: "Karla";
+  font-family: "Karla", sans-serif;
   padding: 3rem 30px !important;
 }
 
@@ -46,6 +46,7 @@ body {
   background-color: hsl(71deg, 73%, 54%);
   outline: none;
   font-weight: 700;
+  cursor: pointer;
 }
 .content .bottom-content .whyus {
   background-color: #5cc6c0;
@@ -65,7 +66,7 @@ body {
   body {
     height: auto;
   }
-  .col-6 {
+  .col-12 {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
